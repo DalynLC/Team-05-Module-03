@@ -1,41 +1,35 @@
-# Sesión #2 Postwork: 
+![Cognizant_logo_2022 svg](https://user-images.githubusercontent.com/77414220/167276034-fc9aba50-8b81-4ce6-8da8-db3aea61e87b.png)
+
+# Postwork
+
+## INTEGRANTES DEL EQUIPO
+
+- Osmar Barraza Flores
+- Cruz Gil Estrada
+- Dalyn Lara Cortes
+- Carlos Valdivia Garcia
 
 ## :dart: Objetivos
 
-- Automatizar los casos de prueba elaborados en el postwork de la sesión 1 haciendo uso de localizadores, técnicas de manejo de errores, de las clases WebDriver/WebElement y finalmente usando afirmaciones.
-- Emplear el uso de las anotaciones de TestNG en los scripts de pruebas automatizados.
-- Reconocer la necesidad de implementar esperas (waits) en los script de pruebas.
-
+- Creación de casos de prueba para la página web de mercadolibre: https://www.mercadolibre.com.mx/
+- Configurar y ejecutar nuestro primer script en Eclipse IDE  con TesngNG + Selenium.
 
 
 ## ⚙ Requisitos
 
-- Software de desarrollo
-    - Java Software Development Kit (JDK)
-- Editor de código
-    - Eclipse IDE
-- Entorno de pruebas de software
-    - Selenium Java Client
-    - Selenium Webdriver
-    - Selenium IDE
-- Navegador
-    - Google Chrome
-- Selenium browserdriver
-    - Chromium/Chrome
++ Eclipse IDE
++ Configuración del browser driver: Chromium/Chrome
++ Dependencias maven en archivo pom.xml
++ Configuración de TestNG
+
 
 
 ## Desarrollo
-- Estructura los casos de pruebas en tu proyecto usando las siguientes anotaciones TestNG para darles lógica de ejecución:
-    - @BeforeTest
-    - @BeforeMethod
-    - @Test
-    - @AfterMethod
-    - @AfterTest
-
-- Agregale prioridad a tus casos de pruebas con el uso de la anotación de TestNG `@Test (Priority)`
-- Utiliza selenium IDE o la herramienta de desarrolladores de google chrome para identificar los localizadores de los elementos en la pantalla para luego incluirlos es los scripts de prueba. __Pro-tip:__ Asegúrate que si tiene id o name usa preferiblemente estos localizadores.
-- Incluye en tu código tipos de esperas explícitas, incluyendo a su vez las condiciones esperadas.
-- Trata de incluir técnicas de manejo de errores como `Try/catch`.
-- Utiliza propiedades/métodos de la clase WebDriver como: `driver.close()`, `driver.manage()`, `driver.get()`.
-- Utiliza propiedades/métodos de la clase WebElement como: `click()`, `sendKeys()`,`clear()`.
-- Incluye aserciones en tu código para validar el resultado esperado del caso de prueba que estás ejecutando. __Pro-tip:__ Si lo requieres puedes incluir varias aserciones en un mismo caso de prueba. 
+- Seleccionar alguna funcionalidad de la página web de mercadolibre en la que desee automatizar sus casos de prueba, y generar un archivo de casos de pruebas con al menos 10 casos de prueba.
+- Crear proyecto maven en Eclipse IDE.
+- Integrar el browser driver de Chrome en el proyecto.
+- Configurar TestNG en el proyecto.
+- Ejecutar un script de prueba donde:
+  - Se abre el navegador (Google Chrome) maximizado.
+  - Se despliegue el explorador en la pagina de mercadolibre: https://www.mercadolibre.com.mx/ 
+  - Se cierre el explorador
