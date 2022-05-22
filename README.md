@@ -31,4 +31,4 @@
 >
 >### En el presente repositorio se encuentra una recopilacion de los Post Work realizados por el equipo 5.
 
-Link del proyecto:https://drive.google.com/file/d/1Mob8BszOQim0ZzafI_SwxkYrvNVTxgCW/view?usp=sharing
+Link del proyecto: https://drive.google.com/file/d/1Mob8BszOQim0ZzafI_SwxkYrvNVTxgCW/view?usp=sharing
