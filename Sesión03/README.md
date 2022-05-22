@@ -21,7 +21,7 @@
     - Chromium/Chrome
 
 
-## Desarrollo
+## Instrucciones
 
 - Modificar el proyecto de automatización en el que estás trabajando para adaptarlo al modelo POM, creando las carpetas en el proyecto en pro de organizar las clases según la estructura del patrón page object model (POM). 
 
@@ -41,3 +41,9 @@ public String getMessageText() {
   }
 ```
 > :stop_sign: __Cuidado:__ ten en cuenta las reglas para crear POM al momento de crear las Page Object.
+
+## Desarrollo
+- Creación de las carpetas para mejor organización.
+
+![image](https://user-images.githubusercontent.com/77414220/169682605-7f0fe959-e26b-431b-aa08-ac3e0f2b187f.png)
+
